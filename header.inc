@@ -6,14 +6,18 @@
     <meta name="Author" content="YOUR NAME HERE">
 
     <div class="topnav" id="myTopnav">
-        <a href="#home">Home</a>
-        <a href="#news">Inventory</a>
-        <a href="#contact">POS</a>
-        <a href="#login">Login</a>
-        <a href="#register">Register</a>
+        <a href="home.php">Home</a>
+        <a href="store.php">Store</a>
+        <a href="login.php">Login</a>
+        <a href="register.php">Register</a>
+        <a href="table.php">Inventory</a>
     </div>
 
     <style>
+        body{
+            backgroung-color: #2B2B2B;
+        }
+
         .topnav {
             background-color: #333;
             overflow: hidden;
