@@ -9,6 +9,11 @@ include("header.inc");
 </head>
 <body>
 <h1 align="center">WELCOME!!</h1>
+<div>
+<?php
+include("carousel.html");
+?>
+</div>
 </body>
 <?php
 include("footer.inc");

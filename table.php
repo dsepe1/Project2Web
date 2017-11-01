@@ -1,23 +1,11 @@
 <?php
 include("header.inc");
 ?>
-
-    <style>
-        table,th,td{
-            border: 1px solid black;
-        }
-        h1{
-            font-weight: bold;
-            font-family: "Courier New";
-
-        }
-    </style>
-
     <title>Inventory</title>
     <h1 align="center">Inventory</h1>
 </head>
 
-<body>
+<body style="border-radius: 12px;">
 <?php
 require_once('db_connect.php');
 
@@ -26,7 +14,7 @@ $result = mysqli_query($dbc,$query);
 
 if($result){
 
-    echo '<table align="center" cellspacing="5" cellpadding="8">
+    echo '<table style="margin-bottom: 2cm;" align="center" cellspacing="5" cellpadding="8">
 <tr><td align="left"><b>Item</b></td>
 <td align="left"><b>Description</b></td>
 <td align="left"><b>Cost</b></td>
